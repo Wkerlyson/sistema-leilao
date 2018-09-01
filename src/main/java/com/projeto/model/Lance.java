@@ -5,7 +5,7 @@ public class Lance {
 	private double valor;
 	private Usuario usuario;
 	
-	public Lance(double valor, Usuario usuario) {
+	public Lance(Usuario usuario, double valor) {
 		this.valor = valor;
 		this.usuario = usuario;
 	}
